@@ -1,0 +1,117 @@
+/* City Images */
+
+#denver {
+	background-image: url('img/henry-desro-400992.jpg');
+}
+
+#sanfran {
+	background-image: url('img/trevor-wilson-44346.jpg');
+}
+
+#vancouver {
+	background-image: url('img/gabriel-santiago-1595.jpg');
+}
+
+#seattle {
+	background-image: url('img/kirstyn-paynter-441927.jpg');
+}
+
+#nashville {
+	background-image: url('img/louis-amal-416845.jpg');
+}
+
+#nebraska {
+	background-image: url('img/thomas-fields-460693.jpg');
+}
+
+#southdakota {
+	background-image: url('img/john-bakator-398476.jpg');
+}
+
+#wyoming {
+	background-image: url('img/tyler-van-der-hoeven-357399.jpg');
+}
+
+#tokyo {
+	background-image: url('img/benjamin-hung-340387.jpg');
+}
+
+
+
+
+
+/* Styling */
+
+body {
+  font-family: "Work Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: #111;
+  
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  
+  flex: 1;
+  margin: auto auto auto 2em;
+  
+}
+
+nav ul {
+  flex: 1;
+  display: flex;
+  list-style: none;
+  padding, margin: 0;
+}
+
+ul li{
+  justify-content: flex-end;
+  flex: 1;
+  
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+section, header {
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+}
+
+header {
+  background-attachment: inherit;
+  background-image: url('img/wang-xi-349509.jpg');
+}
+
+header p {
+  font-size: 1.5em;
+  margin: 25px 0 0 25px;
+}
+h2 {
+  color: white;
+  font-size: 72px;
+  letter-spacing: .75em;
+  text-align: center;
+  margin: auto;
+}
+
+.bottom {
+  height: 1000px;
+}
