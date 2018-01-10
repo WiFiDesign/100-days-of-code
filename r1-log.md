@@ -5,6 +5,6 @@ The log of my #100DaysOfCode challenge. Started on January 9th, 2018.
 ## Log
 
 ### R1D1 
-Started a Weather App. Worked on the draft layout of the app, struggled with OpenWeather API http://www.example.com
+Made a basic page using just html and css showing the places I have travelled with my wife so far. Page took much longer than I expected and the code is very rough and not responsive. Will probably come back and make edits in the future.
 
 ### R1D2
